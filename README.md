@@ -1,6 +1,6 @@
 # QuestDB wrapper
 
-Simple PHP QuestDB PHP client using Influx Line Protocol.
+Simple PHP [QuestDB](https://questdb.io/) PHP client using Influx Line Protocol.
 
 Formats [ILP query string](https://docs.influxdata.com/influxdb/cloud/reference/syntax/line-protocol/) regarding [QuestDB datatypes](https://questdb.io/docs/reference/api/ilp/advanced-settings/#syntax) provided
 
