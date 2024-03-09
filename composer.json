@@ -1,5 +1,29 @@
 {
-    "name": "loranger/quest-client",
-    "require": {},
-    "minimum-stability": "stable"
+    "name": "loranger/questdb-client",
+    "description": "Simple PHP QuestDB client using Influx Line Protocol",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "QuestDB\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "loranger"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7",
+        "ext-sockets": ">=7"
+    },
+    "require-dev": {
+        "pestphp/pest": "^1.23"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
 }

@@ -1,5 +1,7 @@
-/node_modules
-/vendor
+vendor/
+questdb
 .env
 docker-compose.yml
 docker-compose.yaml
+.phpunit.result.cache
+composer.lock
